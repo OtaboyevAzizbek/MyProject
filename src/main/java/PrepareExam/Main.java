@@ -9,5 +9,9 @@ public class Main{
         FileOutputStream fileOutputStream = new FileOutputStream("File/Myfile.txt",true);
         fileOutputStream.write(text.getBytes());
         fileOutputStream.close();
+        myMethod();
+    }
+    public static void myMethod(){
+        System.out.println("salomm");
     }
 }
